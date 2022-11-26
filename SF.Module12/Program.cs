@@ -15,7 +15,9 @@
             foreach (User user in users)
             {
                 Greetings(user);
-            } 
+            }
+            
+            Console.ReadLine();
         }
 
         static void Greetings(User user)
